@@ -1,0 +1,177 @@
+body
+{
+    margin: 10%;
+    padding: 0;
+    color: white;
+    font-family: 'Ubuntu' ;
+}
+
+i
+{
+margin-top: 5%;
+}
+
+button
+{
+    display: inline-block;
+    border: white 1px solid;
+    border-radius: 3px ;
+    background-color: mediumseagreen;
+    color: white;
+    width: 25%;
+    height: 25%;
+}
+
+#pp
+{
+    width: auto;
+    height: 99.9%;
+}
+
+#div_gauche
+{
+    width: 65%;
+    height: 500px;
+    float: left;
+}
+
+#div_droite
+{
+    width: 35%;
+    height: 500px;
+    float: left ;
+}
+
+#div_droite, #div_gauche
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.ligne1
+{
+    display: inline-block;
+    float: left;
+    height: 166px;
+}
+
+.ligne2
+{
+    display: inline-block;
+    float: left;
+    height: 166px;
+    width: 33.33%;
+    text-align: center;
+}
+
+.ligne3
+{
+    display: inline-block;
+    float: left;
+    height: 166px;
+    width: 33.33%;
+    text-align: center;
+}
+
+#case1
+{
+    background-color: mediumseagreen;
+    text-align: center;
+    width: 66.5%;
+}
+
+#case2
+{
+    text-align: center;
+    background-color: grey;
+    width: 33.5%;
+
+}
+
+#case3
+{
+    background-color: dodgerblue;
+}
+
+#case4
+{
+    background-color: coral;
+}
+
+#case5
+{
+    background-color: mediumseagreen;
+    width: 33.34%;
+}
+
+#case6
+{
+    background-color: orange;
+}
+
+#case7
+{
+    background-color: dodgerblue;
+}
+
+#case8
+{
+    background-color: coral;
+    width: 33.34%;
+}
+
+
+
+@media (max-width: 1338px)
+{
+    #div_gauche
+    {
+        width: 100%;
+        padding: 0;
+
+    }
+
+    button
+    {
+        font-size: 100%;
+        border: 3px white solid;
+    }
+
+    body
+    {
+        margin: 0;
+        font-size: 200%;
+    }
+    #div_droite
+         {
+             display: none;
+         }
+
+    .ligne1,.ligne2,.ligne3
+    {
+        width: 100%;
+        height: 70%;
+    }
+
+     #case5, #case8,
+    {
+        width: 33.5%;
+        height: 70%;
+    }
+
+    #case4, #case7
+    {
+        width: 66.5%;
+        height: 70%;
+    }
+
+}
+
+@media (max-width: 812px) {
+    #div_gauche
+    {
+        width: 100%;
+    }
+
+
+}
