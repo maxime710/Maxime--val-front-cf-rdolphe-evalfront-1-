@@ -22,6 +22,11 @@ button
     height: 25%;
 }
 
+.ligne1,.ligne2,.ligne3
+{
+    cursor: pointer;
+}
+
 #pp
 {
     width: auto;
